@@ -3,7 +3,7 @@ import os
 import csv
 
 #Append file directory and make a complete file path
-filepath = os.path.join('PyBank','Resources','budget_data.csv')
+csvpath = os.path.join('PyBank','Resources','budget_data.csv')
 
 #Variables
 Month_Count = 0
@@ -13,7 +13,7 @@ Average = 0
 Highest_Profit = 0
 Lowest_Loss = 0
 #Open and read CSV file
-with open(filepath) as csvfile:
+with open(csvpath) as csvfile:
      csvreader = csv.reader(csvfile, delimiter=',')
      csv_header = next(csvreader)
     
