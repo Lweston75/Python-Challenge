@@ -60,4 +60,4 @@ with open(file, 'w') as text:
         # Greatest Decrease in profit
         f'Greatest Decrease in Profits: {Lowest_Loss_Month} : ($ {Lowest_Loss})' 
     )
-       text.write(formatTxt)
+    text.write(formatTxt)
