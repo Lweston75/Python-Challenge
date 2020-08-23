@@ -5,7 +5,7 @@ import csv
 #Append file directory and make a complete file path
 filepath = os.path.join('PyBank','Resources','budget_data.csv')
 
-#Initialize variables
+#Variables
 Month_Count = 0
 Total_PL = 0
 PreValue = 0
@@ -37,8 +37,8 @@ with open(filepath, newline='') as csvfile:
          # Total PL
          Total_PL += int(Amount) 
 
-## Display Results ##   
-  # Store the file path associated with the file (note the backslash may be OS specific)
+#Results
+
 file = 'input.txt'
 
 # save as text
