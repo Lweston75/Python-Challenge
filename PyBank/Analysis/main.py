@@ -34,6 +34,7 @@ with open(filepath, newline='') as csvfile:
          PreValue = Amount2  
          # Total months
          Month_Count = Month_Count + 1
+         # Total PL
          Total_PL += int(Amount) 
 
 ## Display Results ##   
