@@ -13,7 +13,7 @@ Average = 0
 Highest_Profit = 0
 Lowest_Loss = 0
 #Open and read CSV file
-with open(filepath, newline='') as csvfile:
+with open(filepath) as csvfile:
      csvreader = csv.reader(csvfile, delimiter=',')
      csv_header = next(csvreader)
     
